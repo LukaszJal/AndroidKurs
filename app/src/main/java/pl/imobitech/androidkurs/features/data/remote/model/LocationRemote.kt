@@ -1,7 +1,7 @@
 package pl.imobitech.androidkurs.features.data.remote.model
 
 import com.google.gson.annotations.SerializedName
-import pl.imobitech.androidkurs.features.episodes.domain.model.Location
+import pl.imobitech.androidkurs.features.locations.domain.model.Location
 
 
 data class LocationRemote(
@@ -13,12 +13,13 @@ data class LocationRemote(
     @SerializedName("dimension") val dimension: String,
     @SerializedName("created") val created: String
 ) {
-    fun toLocation() = Location(
-        id = id,
-        name = name,
-        type = type,
-        residents = residents,
-        url = url,
-        dimension = dimension
-    )
+    fun toLocation() =
+        Location(
+            id = id,
+            name = name,
+            type = type,
+            residents = residents,
+            url = url,
+            dimension = dimension
+        )
 }

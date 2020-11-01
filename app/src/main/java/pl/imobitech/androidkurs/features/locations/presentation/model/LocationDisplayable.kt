@@ -1,6 +1,6 @@
-package pl.imobitech.androidkurs.features.episodes.presentation.model
+package pl.imobitech.androidkurs.features.locations.presentation.model
 
-import pl.imobitech.androidkurs.features.episodes.domain.model.Location
+import pl.imobitech.androidkurs.features.locations.domain.model.Location
 
 data class LocationDisplayable(
     val id: Int,

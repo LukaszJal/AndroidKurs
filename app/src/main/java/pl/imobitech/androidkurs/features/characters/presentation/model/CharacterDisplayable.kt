@@ -1,8 +1,8 @@
-package pl.imobitech.androidkurs.features.episodes.presentation.model
+package pl.imobitech.androidkurs.features.characters.presentation.model
 
-import pl.imobitech.androidkurs.features.episodes.domain.model.Character
-import pl.imobitech.androidkurs.features.episodes.domain.model.Location
-import pl.imobitech.androidkurs.features.episodes.domain.model.Origin
+import pl.imobitech.androidkurs.features.characters.domain.model.Character
+import pl.imobitech.androidkurs.features.characters.domain.model.Origin
+import pl.imobitech.androidkurs.features.locations.domain.model.Location
 
 data class CharacterDisplayable(
     val id: Int,

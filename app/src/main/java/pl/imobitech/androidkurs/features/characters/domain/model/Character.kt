@@ -1,4 +1,4 @@
-package pl.imobitech.androidkurs.features.episodes.domain.model
+package pl.imobitech.androidkurs.features.characters.domain.model
 
 data class Character(
     val id: Int,
@@ -7,8 +7,8 @@ data class Character(
     val species: String,
     val type: String,
     val gender: String,
-    val origin: Origin,
-    val location: Location,
+    val origin: CharacterOrigin,
+    val location: CharacterLocation,
     val episode: List<String>,
     val image: String,
     val url: String

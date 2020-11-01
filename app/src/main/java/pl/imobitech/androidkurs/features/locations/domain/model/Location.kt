@@ -1,4 +1,4 @@
-package pl.imobitech.androidkurs.features.episodes.domain.model
+package pl.imobitech.androidkurs.features.locations.domain.model
 
 data class Location(
     val id: Int,

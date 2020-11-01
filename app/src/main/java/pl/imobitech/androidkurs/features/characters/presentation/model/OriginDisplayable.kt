@@ -1,6 +1,6 @@
-package pl.imobitech.androidkurs.features.episodes.presentation.model
+package pl.imobitech.androidkurs.features.characters.presentation.model
 
-import pl.imobitech.androidkurs.features.episodes.domain.model.Origin
+import pl.imobitech.androidkurs.features.characters.domain.model.Origin
 
 data class OriginDisplayable(
     val name: String,
