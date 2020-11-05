@@ -5,7 +5,7 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.android.BuildConfig
 import org.koin.dsl.module
-import pl.imobitech.androidkurs.features.data.RickAndMortyApi
+import pl.imobitech.androidkurs.features.data.remote.RickAndMortyApi
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
