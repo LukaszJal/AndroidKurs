@@ -1,8 +1,7 @@
 package pl.imobitech.androidkurs.features.characters.presentation.model
 
 import pl.imobitech.androidkurs.features.characters.domain.model.Character
-import pl.imobitech.androidkurs.features.characters.domain.model.Origin
-import pl.imobitech.androidkurs.features.locations.domain.model.Location
+import pl.imobitech.androidkurs.features.characters.domain.model.CharacterOrigin
 
 data class CharacterDisplayable(
     val id: Int,
@@ -11,8 +10,8 @@ data class CharacterDisplayable(
     val species: String,
     val type: String,
     val gender: String,
-    val origin: Origin,
-    val location: Location,
+    val origin: CharacterOrigin,
+    val location: CharacterOrigin,
     val episode: List<String>,
     val image: String,
     val url: String
@@ -25,7 +24,7 @@ data class CharacterDisplayable(
         type = character.type,
         gender = character.gender,
         origin = character.origin,
-        location = character.location,
+        location = character.origin,
         image = character.image,
         episode = character.episode,
         url = character.url
